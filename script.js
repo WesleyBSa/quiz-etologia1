@@ -150,7 +150,7 @@ function showResultBox() {
     
     let progressStartValue = -1;
     let progressEndValue = (userScore / questions.length) * 100;
-    let speed = 25;
+    let speed = 20;
 
     let progress = setInterval(() => {
         progressStartValue++;

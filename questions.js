@@ -42,5 +42,16 @@ let questions = [
             "C. Para crescer mentalmente saudável as crianças deveriam experimentar uma relação agradável, íntima e contínua com a mãe na qual ambas devem encontrar satisfação e bem-estar",
             "D. A criança não precisa construir relações sociais, somente com seus pais"
         ]
+    },
+    {
+        numb: 5,
+        question: "A etologia, disciplina desenvolvida com objetivo de estudar o comportamento das espécies animais em seu ambiente natural, tem como seus fundadores:",
+        answer: "D. Konrad Lorenz e Nico Tinbergen",
+        options: [
+            "A. Niko Tinbergen e  John Bowlby",
+            "B. John Bowlby e Jean Piaget",
+            "C. Niko Tinbergen e Mary Ainsworth ",
+            "D. Konrad Lorenz e Nico Tinbergen"
+        ]
     }
 ];
