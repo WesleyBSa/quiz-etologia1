@@ -444,3 +444,33 @@ header {
     background: #c40094;
     color: #fff;
 }
+
+@media (max-width: 360px) {
+    header {
+        padding: 10px; /* Reduzir o espaço na lateral */
+    }
+
+    .logo {
+        font-size: 24px; /* Reduzir o tamanho da fonte do logo */
+    }
+
+    .navbar a {
+        font-size: 12px; /* Reduzir o tamanho da fonte do menu */
+        margin-left: 15px; /* Reduzir a margem esquerda do menu */
+    }
+
+    .home-content h1 {
+        font-size: 36px; /* Reduzir o tamanho da fonte do título */
+    }
+
+    .home-content p {
+        font-size: 12px; /* Reduzir o tamanho da fonte do parágrafo */
+        margin-bottom: 15px; /* Reduzir a margem inferior */
+    }
+
+    .home-content .start-btn {
+        width: 130px; /* Reduzir a largura do botão */
+        height: 40px; /* Reduzir a altura do botão */
+        font-size: 14px; /* Reduzir o tamanho da fonte do botão */
+    }
+}
