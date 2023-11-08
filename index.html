@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website HTML CSS JS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz Psicologia</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Página Inicial</a>
+
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Perguntas- Psicologia</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Game</span>
+                        <span class="header-score">Pontuação: 0/5</span>
+                    </div>
+
+                    <h2 class="question-text">Quem foi S.freud?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A- Professor de artes no instituto de Maringá</span>
+                        </div>
+                        <div class="option">
+                            <span>B- Analista e Desenvolvedor de Sistemas Apple</span>
+                        </div>
+                        <div class="option">
+                            <span>C- Psicanalista, professor e pesquisador.</span>
+                        </div>
+                        <div class="option">
+                            <span>D- Top 10 homens mais ricos do mundo pela Forbes</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 de 5 Questões</span>
+                        <button class="next-btn">Próximo</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Resultado do Quiz</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Sua pontuação foi 0 de 4</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Tente novamente</button>
+                        <button class="goHome-btn">Volte ao menu</button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Etologia</h1>
+                    <p>Quiz desenvolvido para fixar o conhecimento no assunto abordado</p>
+                    <button class="start-btn">Iniciar Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz- Etologia</h2>
+        <span class="info">1. Adna dos Santos de Jesus Cruz</span>
+        <span class="info">2. Agnes Gabriela Santana Rêgo</span>
+        <span class="info">3. Andressa Costa dos Reis</span><br>
+        <span class="info">4. Bianca Santos Oliveira</span><br>
+        <span class="info">5. Jeane Flávia Santos Barreto</span><br>
+        <span class="info">6. Késia Laiane</span><br>
+        <span class="info">7. Lucas dos Santos Simões</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Sair do Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continuar</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
